@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    /* background-image: linear-gradient(yellow, rgb(0, 68, 128)); ver depois fundo do site */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.projeto-item {
+    text-align: center;
+}
+
+.projeto-item div {
+    padding-top: 10px;
+}
