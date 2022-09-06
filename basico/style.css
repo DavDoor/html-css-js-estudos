@@ -6,8 +6,9 @@
 }
 
 body{
-    height: 937px;
-    background: linear-gradient(rgb(206, 201, 225), rgb(92, 155, 211));
+    /* height: 937px; */
+    background: linear-gradient(rgb(206, 201, 225), rgb(92, 155, 211)) no-repeat;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -18,10 +19,47 @@ header {
     width: 100%;
 }
 
+header img {
+    border-radius: 50px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+    background-color: gray;
+}
+
+.banner h1 {
+    font-size: 60px;
+    padding: 20px;
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.sobre-mim h2 {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sobre-mim p {
+    padding: 40px;
+    text-align: justify;
+}
+
 h1{
     text-align: center;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .projetos {
@@ -30,6 +68,7 @@ h1{
     justify-content: center;
     gap: 30px;
     padding: 20px 0;
+    flex-wrap: wrap;
 }
 
 .projeto-item {
@@ -37,8 +76,19 @@ h1{
     background-color: white;
     border-radius: 10px;
     padding: 50px;
-    border: 2px solid black;
+    border: 2px solid #888888;
+    width: 20%;
+    box-shadow: 2px 5px 3px 5px #888888 ;
 }
+
+.projeto-item:hover {
+    transition: transform 500ms;
+    transform: translateY(-8px);
+}
+
+/* .projeto-item::after {
+    content: "<h2>teste</h2>";
+} */
 
 .projeto-item div {
     padding-top: 10px;
@@ -49,18 +99,14 @@ h1{
 }
 
 .projeto-item span {
-    font-family: Arial;
     font-size: 20px;
     font-weight: bold;
 }
 
 .projeto-item p {
     padding: 10px;
-    font-family: Arial;
 }
 
 .projeto-item a {
     padding: 20px;
-    font-family: Arial;
-    font-style: ;
 }
