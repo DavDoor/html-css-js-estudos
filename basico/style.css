@@ -7,21 +7,25 @@
 
 body{
     /* height: 937px; */
-    background: linear-gradient(rgb(206, 201, 225), rgb(92, 155, 211)) no-repeat;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(179, 172, 205), rgb(92, 155, 211)) no-repeat;
+    font-family: 'Poppins', Arial;
+    margin: 20px;
 }
 
 header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
-    height: 80px;
+    height: 90px;
     width: 100%;
+
 }
 
 header img {
     border-radius: 50px;
 }
+
+
 
 .banner {
     display: flex;
@@ -30,12 +34,15 @@ header img {
     justify-content: center;
     height: 350px;
     width: 100%;
-    background-color: gray;
+    color: aliceblue;
+    /* background-color: gray; */
+    background-image: url(https://img.freepik.com/fotos-premium/fundo-de-rede-de-tecnologia_34629-304.jpg);
 }
 
 .banner h1 {
-    font-size: 60px;
-    padding: 20px;
+    font-size: 70px;
+    padding: 30px;
+
 }
 
 .sobre-mim {
@@ -43,12 +50,12 @@ header img {
     flex-direction: column;
     width: 100%;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
 }
 
 .sobre-mim h2 {
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 20px;
     text-align: center;
 }
 
