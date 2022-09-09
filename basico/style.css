@@ -61,6 +61,28 @@ header img {
     font-size: 70px;
 }
 
+.social-contatos {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 0 20px 20px 20px;
+}
+
+.social-item a:hover, .social-item i:hover
+  {
+    color: #39ad56;
+}
+
+.social-item a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.social-item i {
+    font-size: 25px;
+}
+
 .sobre-mim {
     display: flex;
     flex-direction: column;
@@ -142,6 +164,52 @@ h1{
 }
 
 .projeto-item a:hover {
+    background-color: #27743a;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato input {
+    width: 50%;
+    height: 25px;
+    border-radius: 8px;
+}
+
+.contato input:focus, .contato textarea:focus {
+    border: 2px solid rgb(38, 255, 0);
+    outline: none !important;
+}
+
+.contato textarea {
+    width: 50%;
+    height: 250px;
+    border-radius: 8px;
+    resize: none;
+}
+
+.contato label {
+    width: 50%;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0 5px 0;
+}
+
+.contato button {
+    width: 20%;
+    padding: 10px;
+    margin: 25px;
+    background-color: #39ad56;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.contato button:hover {
     background-color: #27743a;
 }
 

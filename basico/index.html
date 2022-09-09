@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link href="./font-awsome.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8914a86fa3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -21,6 +23,24 @@
                 <img src="./img/photo-david.jpeg">
                 <div class="banner-descricao"> 
                     <h1>David Santos</h1>
+                    <div class="social-contatos">
+                        <div class="social-item">
+                            <i class="fa-brands fa-github"></i>
+                            <a href="#">Github</a>
+                        </div>
+                        <div class="social-item">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <a href="#">Linkedin</a>
+                        </div>
+                        <div class="social-item">
+                            <i class="fa-brands fa-facebook"></i>
+                            <a href="#">Facebook</a>
+                        </div>
+                        <div class="social-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="#">Email</a>
+                        </div>
+                    </div>
                     <span>Aprendiz em tecnologia web</span>
                 </div>
             </div>
@@ -73,7 +93,7 @@
             <h1> TECNOLOGIAS </h1>
             <div class="projetos">
                 <div class="projeto-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png?w=360">
+                    <img src="./img/html.png">
                     <div>
                         <span>HTML</span>
                         <p>Linguagem de Marcação de Hipertexto</p>
@@ -81,7 +101,7 @@
                     </div>
                 </div>
                 <div class="projeto-item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png">
+                    <img src="./img/CSS3_logo.png">
                     <div>
                         <span>CSS</span>
                         <p>Linguagem de Estilização</p>
@@ -89,7 +109,7 @@
                     </div>
                 </div>
                 <div class="projeto-item">
-                    <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg">
+                    <img src="./img/javascript_logo.svg">
                     <div>
                         <span>Javascript</span>
                         <p>Linguagem de Programação Interpretada Estruturada</p>
@@ -97,7 +117,7 @@
                     </div>
                 </div>
                 <div class="projeto-item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png">
+                    <img src="./img/PHP-logo.png">
                     <div>
                         <span>PHP</span>
                         <p>Linguagem de Programação Interpretada Livre</p>
@@ -113,7 +133,7 @@
                     </div>
                 </div>
                 <div class="projeto-item">
-                    <img src="https://assets.stickpng.com/images/58480979cef1014c0b5e4901.png">
+                    <img src="./img/java_logo.png">
                     <div>
                         <span>JAVA</span>
                         <p>linguagem de Programação Orientada a Objetos</p>
@@ -121,7 +141,7 @@
                     </div>
                 </div>
                 <div class="projeto-item">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5yvonyTAp3jRzXJy4UWOnlYt6MiBTui8kJalid4lXqUjW3-afvoFZDxKp7hXbvWBj6Qk&usqp=CAU">
+                    <img src="./img/sql_logo.png">
                     <div>
                         <span>SQL</span>
                         <p>Linguagem de Consulta Estruturada</p>
@@ -129,7 +149,7 @@
                     </div>
                 </div>
                 <div class="projeto-item">
-                    <img src="https://growiz.com.br/wp-content/uploads/2020/08/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-5b899192d7c600.1628571115357423548838.png">
+                    <img src="./img/c_logo.png">
                     <div>
                         <span>C#</span>
                         <p>Linguagem de Programção Multiplataforma</p>
@@ -137,6 +157,27 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section>
+            <h1> ENTRE EM CONTATO </h1>
+                <form class="contato">
+                    <label for="nomesobrenome">Nome e sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXX-XXXX">
+                    
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="65" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                    <button type="submit" >
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Enviar
+                    </button>
+                </form>
         </section>
     </main>
     <footer>
