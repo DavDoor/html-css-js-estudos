@@ -7,9 +7,9 @@
 
 body{
     /* height: 937px; */
-    background: linear-gradient(rgb(179, 172, 205), rgb(92, 155, 211)) no-repeat;
+    background: linear-gradient(rgb(179, 172, 205), rgb(92, 155, 211));
     font-family: 'Poppins', Arial;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 header {
@@ -18,18 +18,15 @@ header {
     justify-content: space-around;
     height: 90px;
     width: 100%;
-
 }
 
 header img {
     border-radius: 50px;
 }
 
-
-
 .banner {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 350px;
@@ -39,10 +36,29 @@ header img {
     background-image: url(https://img.freepik.com/fotos-premium/fundo-de-rede-de-tecnologia_34629-304.jpg);
 }
 
+.banner img {
+    width: 275px;
+    height: 275px;
+    border: 4px solid white;
+    margin: 20px;
+}
+
+.banner-descricao {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+    color: aliceblue;
+}
+
+.banner-descricao span {
+    padding: 0 25px;
+}
+
 .banner h1 {
     font-size: 70px;
-    padding: 30px;
-
 }
 
 .sobre-mim {
@@ -85,6 +101,7 @@ h1{
     padding: 50px;
     border: 2px solid #888888;
     width: 20%;
+    height: 400px;
     box-shadow: 2px 5px 3px 5px #888888 ;
 }
 
@@ -99,10 +116,12 @@ h1{
 
 .projeto-item div {
     padding-top: 10px;
+    height: 100%;
 }
 
 .projeto-item img {
     width: 100px;
+    height: 100px;
 }
 
 .projeto-item span {
@@ -111,9 +130,39 @@ h1{
 }
 
 .projeto-item p {
-    padding: 10px;
+    padding: 25px 0;
 }
 
 .projeto-item a {
-    padding: 20px;
+    padding: 10px;
+    background-color: #39ad56;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.projeto-item a:hover {
+    background-color: #27743a;
+}
+
+footer {
+    width: 100%;
+    margin: 15px 0 0 0;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+    background-color: white;
+}
+
+/* breakpoint  responsivel*/
+@media (min-width: 500px) and (max-width: 1000px) {
+    .projeto-item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .projeto-item {
+        width: 100%;
+    }
 }
