@@ -14,43 +14,66 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   </head>
 </head>
-<>
+
+<body>
     <header>
-        <img src="https://ui-avatars.com/api/?name=David+Santos" alt="Logo">
-        <nav>
-            <a href="#sobre">Sobre mim</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#tecnologias">Tecnologias</a>
-            <a href="#contatos">Contatos</a>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-light align-items-center justify-content-center d-flex">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="https://ui-avatars.com/api/?name=David+Santos" alt="Logo">David Santos</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre mim</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#tecnologias">Tecnologias</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contatos">Contatos</a>
+                      </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <section>
-            <div class="banner">
-                <img src="./img/photo-david.jpeg">
-                <div class="banner-descricao"> 
-                    <h1>David Santos</h1>
-                    <div class="social-contatos">
-                        <div class="social-item">
-                            <i class="fa-brands fa-github"></i>
-                            <a href="#">Github</a>
-                        </div>
-                        <div class="social-item">
-                            <i class="fa-brands fa-linkedin"></i>
-                            <a href="#">Linkedin</a>
-                        </div>
-                        <div class="social-item">
-                            <i class="fa-brands fa-facebook"></i>
-                            <a href="#">Facebook</a>
-                        </div>
-                        <div class="social-item">
-                            <i class="fa-solid fa-envelope"></i>
-                            <a href="#">Email</a>
-                        </div>
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                  <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="./img/photo-david.jpeg"" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                  </div>
+                  <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">David Santos</h1>
+                    <p class="lead">Aprendiz em tecnologia web</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                        <i class="fa-brands fa-github"></i>
+                        Github
+                    </button>
+                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                        <i class="fa-brands fa-linkedin"></i>
+                        Linkedin
+                    </button>
+                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                        <i class="fa-brands fa-facebook"></i>
+                        Facebook
+                    </button>
+                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                        <i class="fa-solid fa-envelope"></i>
+                        Email
+                    </button>
                     </div>
-                    <span>Aprendiz em tecnologia web</span>
+                  </div>
                 </div>
             </div>
+
         </section>
         <section id="sobre">
             <div class="sobre-mim">
