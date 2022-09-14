@@ -19,26 +19,28 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-light align-items-center justify-content-center d-flex">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="https://ui-avatars.com/api/?name=David+Santos" alt="Logo">David Santos</a>
+                <a class="navbar-brand" href="#">
+                    <img src="https://ui-avatars.com/api/?name=David+Santos" alt="Logo">David Santos
+                </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre mim</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#projetos">Projetos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#tecnologias">Tecnologias</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#contatos">Contatos</a>
-                      </li>
-                </ul>
-              </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tecnologias">Tecnologias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contatos">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
           </nav>
     </header>
@@ -47,7 +49,7 @@
             <div class="container col-xxl-8 px-4 py-5">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                   <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="./img/photo-david.jpeg"" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    <img src="./img/photo-david.jpeg"" class="d-block mx-lg-auto img-fluid rounded-img" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                   </div>
                   <div class="col-lg-6">
                     <h1 class="display-5 fw-bold lh-1 mb-3">David Santos</h1>
@@ -82,52 +84,44 @@
                     <p>A <strong>Linguagem de Programação</strong> é um método padronizado, formado por um conjunto de regras <em>sintáticas e semânticas</em>, de implementação de um código fonte - que pode ser compilado e transformado em um programa de computador, ou usado como script interpretado - que informará instruções de processamento ao computador. Permite que um programador especifique precisamente quais os dados que o computador irá atuar, como estes dados serão armazenados ou transmitidos e, quais ações devem ser tomadas de acordo com as circunstâncias. Linguagens de programação podem ser usadas para expressar algoritmos com precisão. As linguagens mais comuns usadas nos sistemas de tecnologia são: HTML, CSS, Javascript, PHP, Phyton, JAVA, SQL e C# entre outras.</p>
             </div>
         </section>
-        <section id="projetos">
-            <h1> PROJETOS </h1>
+        <section id="projetos" class="bg-dark py-5" >
+            <h1 class="text-white"> PROJETOS </h1>
             <div class="projetos">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1698/1698477.png" class="card-img-top" alt="...">
+                <div class="card rounded" style="width: 18rem;">
                     <div class="card-body">
-                      <h5 class="card-title">Formulário</h5>
+                        <img src="https://cdn-icons-png.flaticon.com/512/1698/1698477.png" class="card-img-top" alt="Logo Formulário">
+                        <h5 class="card-title">Formulário</h5>
                       <p class="card-text">Preenchimento de dados para sistemas de cadastros.</p>
                       <a href="#" class="btn btn-success">Detalhes</a>
                     </div>
-                  </div>
-                <div class="projeto-item">
-                    <img src="">
-                    <div>
-                        <button type="button" class="btn btn-success">Detalhes</button>
-                        <span>Formulário</span>
-                        <p>Preenchimento de dados para sistemas de cadastros.</p>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2927/2927547.png" class="card-img-top" alt="Logo Calculadora">
+                      <h5 class="card-title">Calculadora</h5>
+                      <p class="card-text">Usual para cálculos de expressões numéricas.</p>
+                      <a href="#" class="btn btn-success">Detalhes</a>
                     </div>
                 </div>
-                <div class="projeto-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2927/2927547.png">
-                    <div>
-                        <span>Calculadora</span>
-                        <p>Usual para cálculos de expressões numéricas </p>
-                        <a href="#">Ver detalhes</a>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="https://cdn-icons-png.flaticon.com/512/69/69879.png" class="card-img-top" alt="Logo Conversor de Moedas">
+                      <h5 class="card-title">Conversor de Moedas</h5>
+                      <p class="card-text">Conversor de unidades monetárias para taxas de câmbio.</p>
+                      <a href="#" class="btn btn-success">Detalhes</a>
                     </div>
                 </div>
-                <div class="projeto-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/69/69879.png">
-                    <div>
-                        <span>Conversor de Moedas</span>
-                        <p>Conversor de unidades monetárias para taxas de câmbio.</p>
-                        <a href="#">Ver detalhes</a>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="https://cdn-icons-png.flaticon.com/512/57/57567.png" class="card-img-top" alt="Logo Contador">
+                      <h5 class="card-title">Contador</h5>
+                      <p class="card-text">Medidor temporal para contagem de unidade de tempo.</p>
+                      <a href="#" class="btn btn-success">Detalhes</a>
                     </div>
                 </div>
-                <div class="projeto-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/57/57567.png">
-                    <div>
-                        <span>Contador</span>
-                        <p>Medidor temporal para contagem de unidade de tempo.</p>
-                        <a href="#">Ver detalhes</a>
-                    </div>
-                </div>
-            </div>
         </section>
-        <section id="tecnologias">
+
+        <section id="tecnologias" class="bg-light py-5">
             <h1> TECNOLOGIAS </h1>
             <div class="projetos">
                 <div class="projeto-item">
@@ -196,30 +190,37 @@
                 </div>
             </div>
         </section>
-        <section id="contatos">
+        <section id="contatos" class="container">
             <h1> ENTRE EM CONTATO </h1>
                 <form class="contato">
-                    <label for="nomesobrenome">Nome e sobrenome</label>
-                    <input type="text" id="nomesobrenome" class="input-padrao" required>
 
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio">
+                    <label for="nomesobrenome" class="form-label">Nome e sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="form-control" required>
+                
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" id="email" class="form-control" required placeholder="seuemail@dominio">
 
-                    <label for="telefone">Telefone</label>
-                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXX-XXXX">
+                    <label for="telefone" class="form-label">Telefone</label>
+                    <input type="tel" id="telefone" class="form-control" required placeholder="(XX)XXXX-XXXX">
                     
-                    <label for="mensagem">Mensagem</label>
-                    <textarea cols="65" rows="10" id="mensagem" class="input-padrao" required></textarea>
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea cols="65" rows="10" id="mensagem" class="form-control" required></textarea>
 
-                    <button type="submit" >
+                    <button type="submit" class="btn btn-success w-100 mt-3 mb-3">
                         <i class="fa-solid fa-paper-plane"></i>
                         Enviar
                     </button>
                 </form>
         </section>
     </main>
-    <footer>
-        Desenvolvido por David Santos - 2022
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark">
+        <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 David</span>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
