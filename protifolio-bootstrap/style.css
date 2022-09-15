@@ -176,6 +176,15 @@ h1{
     background-color: #27743a;
 }
 
+.tecnologias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
 .contato {
     width: 100%;
 }
