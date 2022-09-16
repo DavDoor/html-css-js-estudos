@@ -7,7 +7,7 @@
 
 body{
     /* height: 937px; */
-    background: linear-gradient(rgb(179, 172, 205), rgb(92, 155, 211));
+    background: linear-gradient(rgb(125, 189, 235), rgb(92, 155, 211));
     font-family: 'Poppins', Arial;
     /* margin: 20px; */
 }
@@ -140,6 +140,10 @@ h1{
 .projeto-item img {
     width: 100px;
     height: 100px;
+}
+
+.card {
+    height: 280px !important;
 }
 
 .card-body {
